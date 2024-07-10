@@ -1,0 +1,17 @@
+1.Style different states of a link
+2.Remove the default underline from hyperlinks
+3.Customize a link to look like a button
+4.Setting the borders of a table
+5.Specify the dimension of a table
+6.Creating better tables by collapsing the table borders
+7.Setting the horizontal alignment of text inside table cell
+8.Setting the vertical alignment of content
+9.Setting the background color of an element
+10.Setting the image as element's background
+11.Repeating background image horizontally or vertically
+12.Specify the positioning of background image
+13.Setting the size of the background image
+14.Alignment of text and inline element inside the block-level element
+15.Center alignment of block element using margin property
+16.Aligning element horizontally using the float property
+17.Aligning element horizontally and vertically using the position property

@@ -1,0 +1,24 @@
+1.write code Setting the text color
+2.write  code Alignment of text
+3.write code Indentation of text
+4..write  code Decoration of text
+5.write  code Sets the spacing between characters
+6.write  code Sets the spacing between words
+7.write code Sets the spacing between lines of text.
+8.write code Sets the font of a text
+9.write code  Sets the size of the font
+10.write code for Sets the style of the font
+11.write code Sets the variant of the font
+12. write code Sets the boldness of the font
+13.Draw border around element
+14.Draw border on the individual sides of an element
+15.Setting different styles for the borders
+16.Setting the all border properties at once - The border shorthand property
+17.Creating the rounded corners around an element.
+18.Using images for creating borders
+19.Draw outline around element
+20.Draw border around element without effecting the surrounding elements
+21.Sets the margins for individual sides of an element
+22.Setting all margin properties in a single declaration - The margin shorthand property
+23.Sets the paddings for individual sides of an element
+24.Setting all padding properties at once - The padding shorthand property
