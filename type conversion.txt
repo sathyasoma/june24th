@@ -1,0 +1,132 @@
+Most of the time, 
+operators and functions automatically convert
+ the values given to them to the right type.
+
+
+
+String Conversion:
+------------------
+
+// String Conversion Implicitly
+"25" + 56; // '2556'
+"25" + null; // '25null'
+"Ale" + undefined; // 'Ale undefined'
+"25" + false; // '25fasle'
+
+// String Conversion Explicitly
+String(23);   // '23'
+String(true); // 'true'
+String(32 - false);  // '32'
+String(32 - true);   // '31'
+
+
+**From the above example, 
+we have conquered that the + operator tends to convert the value of 
+different data types into a string when there is an addition between 
+a string and an operand of a different data type.
+									   
+
+Numeric Conversion:
+===================
+
+
+// Explicit conversion into number
+Number(" 12 ");  // 12
+Number("-12.34");  // -12.34
+Number("\n");   // 0
+
+//null and undefined into a number
+Number(null);   // 0
+Number(undefined);  // NaN
+
+// Booleans into Number
+Number(true); // 1
+Number(false); // 0
+
+// Difference between results of the same prompt..
+prompt('what is you age?'); // '26'
+Number(prompt('what is you age?')); // 26
+
+
+
+Boolean Conversion:
+----------------------
+
+
+Boolean(2);   // true
+
+// conversion to boolean implicitly in an statement
+if(' ') {console.log(`Empty string`)};   // Empty string 
+
+// implicit conversions due to logical operators
+!! 2;    // true
+'' || 23;  // 23
+
+
+
+
+Boolean('');   // false
+Boolean(0);    // false     
+Boolean(-0);   // false
+Boolean(NaN);  // false
+Boolean(null);  // false
+Boolean(undefined);  // false
+Boolean(false);   // false
+
+
+
+Explicit type coercion:
+-----------------------
+
+let myVar_1 = String(45);	
+console.log(myVar_1);		// returns '45' as a String
+
+let myVar_2 = String(-45.22);	
+console.log(myVar_2);		// returns '-45.22' as a String
+
+let myVar_3= String(true);	
+console.log(myVar_3);		// returns 'true' as a String
+
+let myVar_4 = String(false);	
+console.log(myVar_4);		// returns 'false' as a String
+
+let myVar_5 = String(null);	
+console.log(myVar_5);		// returns 'null' as a String
+
+let myVar_6 = String(undefined);
+console.log(myVar_6);		// returns 'undefined' as a String
+
+
+
+Explicit type coercion:
+----------------------
+
+let myVal1 = Boolean(0);
+console.log(myVal1) // returns false
+
+let myVal2 = Boolean('');
+console.log(myVal2) // returns false
+
+let myVal3 = Boolean(NaN);  
+console.log(myVal3) // returns false
+
+let myVal4 = Boolean(false); 
+console.log(myVal4) // returns false
+
+let myVal5 = Boolean(undefined);
+console.log(myVal5) // returns false
+
+let myVal6 = Boolean(null);
+console.log(myVal6) // returns false
+
+let myVal7 = Boolean(23);
+console.log(myVal7) // returns true
+
+let myVal8 = Boolean(-23);
+console.log(myVal8) // returns true
+
+let myVal9 = Boolean(23.51);
+console.log(myVal9) // returns true
+
+
+

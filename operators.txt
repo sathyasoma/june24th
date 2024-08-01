@@ -1,0 +1,76 @@
+
+//Arithematic operators:)
+
+var a=7;
+var b=4;
+
+document.write(a++); //post increment: increment after assign value to variable
+document.write("<br>"); 
+document.write(++a); //pre increment: increment 1st then assign value
+
+
+//2.comparison operator :
+
+document.write(a==b);
+document.write("<br>");
+document.write(a!=b);
+document.write("<br>");
+document.write(a<b);
+document.write("<br>");
+document.write(a>b);
+document.write("<br>");
+document.write(a<=b);
+document.write("<br>");
+document.write(a>=b);
+document.write("<br>");
+
+
+//logical operators
+     //1.and operator: a&&b
+     //2.or operator: a||b
+     //3.not operator:!a
+
+
+     document.write((4<5)&&(5<6)); //both conditions are true   : true
+     document.write((2>3)&&(4>1)); // one is true one is false: false
+     document.write((4<2)&&(10<1)); //both false: false
+
+document.write("<br>");
+//2.Or operator:
+
+     document.write((4<5)||(5<6)); //any one condition is true: true
+     document.write((2>3)||(4>1)); // one is true one false: true
+     document.write((4<2)||(10<1)); //both false: false
+//3.not operator:
+document.write("<br>");
+document.write(!true); //false
+document.write(!false); //true
+document.write(!(3<5)); //false
+
+document.write("<br>");
+
+//Assignment operators:
+var x=5;
+var y=4;
+
+document.write(x=y); //
+document.write("<br>");
+document.write(x+=y); //4+5=9
+document.write("<br>");
+document.write(x-=y);
+document.write("<br>");
+document.write(x*=y);
+document.write("<br>");
+document.write(x/=y);
+document.write("<br>");
+document.write(x%=y);
+document.write("<br>");
+document.write(x<<=y);
+document.write("<br>");
+document.write(x>>=y);
+document.write("<br>");
+document.write(x>>>=y);
+document.write("<br>");
+document.write(x^=y);
+document.write("<br>");
+    </script>

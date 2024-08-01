@@ -1,0 +1,262 @@
+     In September 1995, Brendan Eich, a programmer at Netscape developed a programming language in just 10 days.
+								              This language was initially called Mocha, then LiveScript.
+								  In December 1995 Netscape and Sun(the organisation that owned Java) had a license agreement regarding Javascript
+								  Today Javascript is used by millions of developers and is used in major sites such as Google, Facebook, Twitter, etc.
+								  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Client-Side Scripting and Server-Side Scripting:
+===============================================
+Intro:
+------
+*The static user interface(UI) that can be seen by the user is developed by using "Client-side" programming language.
+
+*whenever we can enter mobilenumber,or some credentials it will check in the server, we can say simpley "server side " programming language.
+
+*above these two are useful in web application development.(client side and server side)
+
+
+
+
+What Is Server-side Programming?:
+================================
+=> the execution of the programs on backaend or server, specifically we can say, server side programming or server side scripting.
+
+=> when we deal with huge collections of data, we need servers that have databases to store such a huge amount of data. 
+
+=> Then server-side programs are used to perform various operations on that data.
+
+
+Server-Side Uses:
+=================
+
+1. Well organized Storage and Information Delivery.
+2. Data Analysation and Decision Making
+3. Notifying and Communicating with client
+4. Application of Session Information
+5. Tailored User Experience
+6. Limited Content Accessibility
+
+
+Programming Languages for Server-side Programming:
+=================================================
+
+the languages that offer Server-side programming.
+
+*PHP
+*Node.js
+*C# (read as 'C sharp')
+*Ruby
+*Python
+
+
+Examples of Server-side Programming:
+-----------------------------------
+*A user requests for some specific data by using his browser(client).
+   *the servers do some processing and only send that data to the user which was requested.
+ 
+
+
+
+
+What is Client-side Programming?:
+==================================
+*The execution of several programs on the front-end or specifically the Client, is said to be Client-side programming.
+
+*Many functionalities are added in the web application for better user experience with the help of the programs that runs on the front-end.
+              * Hence, this is also called Front-end Programming.
+
+****The main motive of client-side programming is to create interactive and appealing web pages, 
+               **utilizing the power of temporary storages such as local storage and session storage and reducing the server load as well by 
+			           executing some scripts on the client-side only.
+
+**The client side is also used to send requests to the server for various functions like data retrieval and sending.
+
+
+Client-Side Uses:
+-----------------
+
+1. Creating Static and Dynamic Web Pages
+
+2. Client-side Validation
+
+3. Immediate Responses
+
+4. Utilizing Temporary Storages.
+
+5. Server load Reduction
+
+
+
+Client-side Programming languages:
+-------------------------------------
+
+HTML
+CSS
+JavaScript
+VBScript
+
+
+Examples of Client-side Programming:
+------------------------------------
+
+*Form validation is one of the best examples of client-side programming.
+
+**The data input by the user is verified before it is sent to the server.
+
+*Once the data is validated on the client side, it is sent to the server for further process. 
+
+* when the user enters the email address, it is first checked on the client-side itself if it is having a proper structure 
+like "@" symbol, "." extension like .com, .org, etc. Once it is verified, then it is passed on to the server to check if the entered email actually exists or not. 
+This helps in reducing the load on servers.
+
+
+
+What is javaScript:
+-------------------
+
+======>"Javascript is the duct tape of the Internet." -Charlie Campbell.
+
+In a web page, 
+
+*HTML is used to structure the page.
+*css is used to add styling like colors,fonts
+   
+     But web page in the sence not only html+css, it gives only sttaic 	page , we canot interact with at page.
+
+thats why javascript comes in picture.
+
+
+*******
+Javascript is a cross-platform, interpreted, object-oriented, just-in-time compiled scripting language.
+
+=>It is used to make web pages interactive.
+ (for example if the user clicks a button then the theme of the website changes, or after scrolling the page a pop-up message may be displayed).
+
+=>It is used make dynamic web pages.
+
+=>JavaScript has a standard library of objects, such as Array, Date, and Math, and a fundamental set of language elements 
+                                                                             such as operators, control structures, and statements. 
+																			 																			 
+=> Javascript can be used for both client and server side programming.
+
+=>The browser has an embedded engine sometimes called a “JavaScript virtual machine”.
+
+=>Different engines have different “codenames”. For example:
+
+            V8 – in Chrome, Opera and Edge.
+            SpiderMonkey – in Firefox.
+…There are other codenames like “Chakra” for IE, “JavaScriptCore”, “Nitro” and “SquirrelFish” for Safari, etc.
+
+
+==>JavaScript’s capabilities greatly depend on the environment it’s running in. 
+        For instance, Node.js supports functions that allow JavaScript to read/write arbitrary files, perform network requests, etc.
+
+==>In-browser JavaScript can do everything related to webpage manipulation, interaction with the user, and the webserver
+
+
+
+Applications of JavaScript:
+============================
+
+*Excellent user interactivity
+
+*Web and Mobile app creation
+
+*server-side development
+
+*Game development
+
+
+Client side use of JavaScript:
+------------------------------
+ Client side javascript is used to manipulate the contents of a webpage, provide user interaction etc.
+ 
+Server side use of JavaScript:
+------------------------------
+Server side javascript is used for server side development it can do things like database queries, network requests, read/write files, running webservers, etc.
+ Server side javascript is possible because of Node.js.
+
+
+
+Javascript engine:
+------------------
+*The Javascript engine is a special programme which can execute JS code. Different browsers use different engines.
+      Example: Chrome, Opera, Edge use V8 engine. Firefox uses SpiderMonkey IE uses Chakra
+	  
+
+JS engines have 4 main steps-Parsing, Interpretation, Compilation, Execution.
+
+
+What makes JavaScript Unique?:
+-------------------------------
+A combination of three things makes Javascript unique - full integration with HTML and CSS, simplicity, support by all modern browsers, many frameworks, etc.
+
+
+
+Advantages of JavaScript ::
+------------------------
+
+Less server load runs on the client side, hence the load on the server is less.
+
+Rich interface makes the creation of rich and complex interfaces possible.
+
+Speed
+
+Browser support
+
+Versatility 
+
+Various frameworks 
+
+Interoperability
+
+
+
+What is ECMAScript and how is javascript related to it?:
+-------------------------------
+After its birth in 1995, Javascript grew rapidly hence there was a need to standardize it.
+
+In 1997 this responsibility was given to ECMA (the European association for standardizing information and communication systems) 
+                                                        and a standardized version of Javascript was created, this version is ECMAScript. 
+														
+*Standardized version of Javascript is ECMAScript.
+
+
+
+*****An ES6 module is a JS file that can export its code to share with other files and import and use code from other JS files.
+
+
+
+
+3 Ways of Printing Hello World in JavaScript with Examples:
+----------------------------------------------------------
+
+You can print Hello World in JavaScript using console.log(), document.write(), alert() functions.
+
+
+Using npm (Node Package Manager):
+--------------------------------
+
+
+*We can use npm to manage the dependencies (the modules/packages required for our project to work properly) for our local projects. 
+
+*npm has the ability to install all the dependencies that are required in the application as a package in just a single command.
+
+*npm (node package manager) is used to manage the packages
+
+* We can get any package that is present in npm and use it in our application or project whenever necessary.
+
+*
+

@@ -1,0 +1,101 @@
+A variable:
+===========
+A variable is a “named storage” for data. We can use variables to store goodies, visitors, and other data.
+
+we have 3 keywords in javascript
+1.var
+2.let
+3.const
+
+The Difference Between 'var' and 'let':
+-----------------------------------------
+
+*The main difference between var and let is that the scope of the variable that is defined by let is limited to the block
+        in which it is declared, whereas the variable declared using var has the global scope,
+           		i.e., can be used throughout the code.
+
+declaration:
+----------
+
+let message;
+
+Assigning:
+-----------
+message="hello";
+
+Initilization:
+------------
+
+var message="good morning";
+
+*We can also declare multiple variables in one line: not recomnded
+
+let user = 'sathya', age = 25, message = 'Hello';
+
+
+recomnded to write variables:
+---------------------
+
+let user = 'sathya';
+let age = 25;
+let message = 'Hello';
+
+
+In older scripts, you may also find another keyword: var instead of let:
+-----------------
+var message = 'Hello';
+The var keyword is almost the same as let. It also declares a variable, 
+but in a slightly different, “old-school” way.
+
+There are subtle differences between let and var, but they do not matter for us yet.
+
+
+Variable naming:
+-----------------
+There are two limitations on variable names in JavaScript:
+
+The name must contain only letters, digits, or the symbols $ and _.
+The first character must not be a digit.
+Examples of valid names:
+
+let userName;
+let test123;
+
+When the name contains multiple words, camelCase is commonly used.
+ That is: words go one after another, each word except first starting with a capital letter: myVeryLongName.
+
+What’s interesting – the dollar sign '$' and the underscore '_' can also be used in names. They are regular symbols, just like letters, without any special meaning.
+
+These names are valid:
+---------------------
+
+let $ = 1; // declared a variable with the name "$"
+let _ = 2; // and now a variable with the name "_"
+
+alert($ + _); // 3
+Examples of incorrect variable names:
+-------------------------------------
+
+let 1a; // cannot start with a digit
+
+let my-name; // hyphens '-' aren't allowed in the name
+
+
+Constants:
+-----------
+To declare a constant (unchanging) variable, use const instead of let:
+
+const myBirthday = '04.06.1994';
+Variables declared using const are called “constants”. They cannot be reassigned. An attempt to do so would cause an error:
+
+const myBirthday = '18.04.1982';
+
+myBirthday = '01.01.2001'; // error, can't reassign the constant!
+
+
+----->
+We can declare variables to store data by using the var, let, or const keywords.
+
+let: – is a modern variable declaration.
+var :– is an old-school variable declaration. Normally we don’t use it at all, but we’ll cover subtle differences from let in the chapter The old "var", just in case you need them.
+const: – is like let, but the value of the variable can’t be changed
